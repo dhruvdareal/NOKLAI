@@ -1,138 +1,26 @@
-// Noklai Design System Theme Tokens
-// Inspired by the Noklai Caregiver Journey & Northeast Cultural Heritage
-
+// NOKLAI design system — refreshed 2026 UI
 export const noklaiTheme = {
   colors: {
-    // Primary brand colors
-    primary: '#5B409E',         // Royal purple for caregiver buttons & accents
-    primaryLight: '#7A62B8',
-    primaryDark: '#432C79',
-    primarySoft: '#F0ECF9',
-
-    // Patient & Nature accents
-    patientGreen: '#237B4B',     // Organic forest green for patient UI
-    patientGreenLight: '#E8F5EE',
-    patientGreenDark: '#175433',
-
-    // Backgrounds
-    background: '#F8F9F5',       // Soft organic warm cream
-    backgroundDark: '#14171E',   // Dark mode background
-    cardBackground: '#FFFFFF',   // Pure white card
-    cardBackgroundDark: '#1E232E',
-    surfaceSubtle: '#F1F3EE',    // Slightly darker cream for input / pills
-    surfaceSubtleDark: '#262D3B',
-
-    // Borders
-    border: '#E8EAE3',
-    borderDark: '#2D3545',
-    borderFocus: '#5B409E',
-
-    // Typography
-    textPrimary: '#1E242B',
-    textPrimaryDark: '#F3F4F6',
-    textSecondary: '#656F7D',
-    textSecondaryDark: '#9CA3AF',
-    textMuted: '#94A0B0',
-
-    // Status & Badges
-    activeGreen: '#16A34A',
-    activeGreenSoft: '#DCFCE7',
-    amber: '#D97706',
-    amberSoft: '#FEF3C7',
-    orange: '#EA580C',
-    orangeSoft: '#FFEDD5',
-    rose: '#E11D48',
-    roseSoft: '#FFE4E6',
-    blue: '#2563EB',
-    blueSoft: '#EFF6FF',
-
-    // Insight card special tints (from reference design)
-    insightGreenBg: '#EAF7EE',
-    insightGreenBorder: '#C2E8CC',
-    insightGreenText: '#1B6B38',
-
-    insightBlueBg: '#EDF5FD',
-    insightBlueBorder: '#C8E1FA',
-    insightBlueText: '#1E5894',
-
-    insightRoseBg: '#FDF2F1',
-    insightRoseBorder: '#F9D1CD',
-    insightRoseText: '#9A2B24',
-
-    // Tab bar
-    tabBarBg: '#FFFFFF',
-    tabBarBgDark: '#1A1E27',
-    tabBarActive: '#5B409E',
-    tabBarInactive: '#8A95A5',
-
-    white: '#FFFFFF',
-    black: '#000000',
+    primary: '#5B3E96', primaryLight: '#7959B6', primaryDark: '#3F286C', primarySoft: '#F1ECFA',
+    patientGreen: '#2F7D57', patientGreenLight: '#EAF6EF', patientGreenDark: '#205B3F',
+    background: '#F7F8F4', backgroundDark: '#11151B', cardBackground: '#FFFFFF', cardBackgroundDark: '#1A2028',
+    surfaceSubtle: '#EEF1EC', surfaceSubtleDark: '#242C36', border: '#DFE4DE', borderDark: '#303944', borderFocus: '#5B3E96',
+    textPrimary: '#20262D', textPrimaryDark: '#F4F7F7', textSecondary: '#64707B', textSecondaryDark: '#A8B0B8', textMuted: '#8B959F',
+    activeGreen: '#2F8A5B', activeGreenSoft: '#E2F4E9', amber: '#C77A13', amberSoft: '#FFF3DB', orange: '#D86A25', orangeSoft: '#FCEBDD', rose: '#C64B63', roseSoft: '#FCE9EE', blue: '#3172B8', blueSoft: '#EAF2FB',
+    insightGreenBg: '#EAF6EF', insightGreenBorder: '#C9E5D3', insightGreenText: '#256541',
+    insightBlueBg: '#ECF3FA', insightBlueBorder: '#D0E1F1', insightBlueText: '#2D5F8D',
+    insightRoseBg: '#FCEFF1', insightRoseBorder: '#F0D3D8', insightRoseText: '#8B3648',
+    tabBarBg: '#FFFFFF', tabBarBgDark: '#171C24', tabBarActive: '#5B3E96', tabBarInactive: '#8E98A2',
+    white: '#FFFFFF', black: '#000000',
   },
-
-  typography: {
-    fontFamily: undefined, // System font for high performance & universal compatibility
-    sizes: {
-      xs: 11,
-      sm: 13,
-      base: 15,
-      md: 17,
-      lg: 20,
-      xl: 24,
-      xxl: 30,
-      hero: 36,
-    },
-    weights: {
-      normal: '400',
-      medium: '500',
-      semiBold: '600',
-      bold: '700',
-      heavy: '800',
-    },
-  },
-
-  spacing: {
-    xs: 4,
-    sm: 8,
-    md: 12,
-    base: 16,
-    lg: 20,
-    xl: 24,
-    xxl: 32,
-  },
-
-  radii: {
-    sm: 8,
-    md: 12,
-    lg: 16,
-    xl: 20,
-    xxl: 26,
-    full: 9999,
-  },
-
+  typography: { fontFamily: undefined, sizes: { xs: 12, sm: 14, base: 16, md: 18, lg: 21, xl: 25, xxl: 31, hero: 38 }, weights: { normal: '400', medium: '500', semiBold: '600', bold: '700', heavy: '800' } },
+  spacing: { xs: 4, sm: 8, md: 12, base: 16, lg: 20, xl: 24, xxl: 32 },
+  radii: { sm: 10, md: 14, lg: 18, xl: 22, xxl: 28, full: 9999 },
   shadows: {
-    card: {
-      shadowColor: '#1A202C',
-      shadowOffset: { width: 0, height: 3 },
-      shadowOpacity: 0.06,
-      shadowRadius: 8,
-      elevation: 2,
-    },
-    button: {
-      shadowColor: '#5B409E',
-      shadowOffset: { width: 0, height: 4 },
-      shadowOpacity: 0.22,
-      shadowRadius: 8,
-      elevation: 3,
-    },
-    floating: {
-      shadowColor: '#000000',
-      shadowOffset: { width: 0, height: 6 },
-      shadowOpacity: 0.14,
-      shadowRadius: 12,
-      elevation: 6,
-    },
+    card: { shadowColor: '#1B2520', shadowOffset: { width: 0, height: 4 }, shadowOpacity: 0.07, shadowRadius: 12, elevation: 2 },
+    button: { shadowColor: '#5B3E96', shadowOffset: { width: 0, height: 5 }, shadowOpacity: 0.18, shadowRadius: 10, elevation: 3 },
+    floating: { shadowColor: '#1B2520', shadowOffset: { width: 0, height: 8 }, shadowOpacity: 0.14, shadowRadius: 16, elevation: 6 },
   },
-
   quotes: [
     { text: 'Small steps make a big difference.', author: 'Noklai Care' },
     { text: 'Care is a journey we walk together.', author: 'Family Support' },
@@ -140,6 +28,4 @@ export const noklaiTheme = {
     { text: 'Every smile remembers love.', author: 'Memory Care' },
   ],
 };
-
 export default noklaiTheme;
-
