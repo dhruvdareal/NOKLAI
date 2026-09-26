@@ -1,0 +1,16 @@
+/**
+ * Central Cognitive Performance & Adaptive Difficulty System
+ * (SIH Memory Assistant)
+ */
+
+export * from './MetricsCalculator.js';
+export * from './DifficultyEngine.js';
+export * from './SessionManager.js';
+export * from './SupabasePerformanceService.js';
+export * from './PerformanceTracker.js';
+export * from './CognitiveAnalyticsService.js';
+export * from './CognitiveVitalityIndex.js';
+export * from './gameRegistry.js';
+export * from './DriftDetector.js';
+export * from '../LocalPerformanceStorage.js';
+export * from '../../games/suhTahLam/storage/LocalPerformanceStorage.js';
